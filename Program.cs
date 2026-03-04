@@ -152,7 +152,7 @@
 //    Console.WriteLine(country);
 //}
 
-//int[] nums = { 20, 34, 21, 98, 45, 12, 34, 65, 11, 34, 54, 30 };
+int[] nums = { 20, 34, 21, 98, 45, 12, 34, 65, 11, 34, 54, 30 };
 
 //for (int i = 0; i < nums.Length; i++)
 //{
@@ -161,3 +161,11 @@
 //        Console.WriteLine(nums[i]);
 //    }
 //}
+
+int max = nums.Max();
+int min = nums.Min();
+double average = nums.Average();
+
+Console.WriteLine("Max: " + max);
+Console.WriteLine("Min: " + min);
+Console.WriteLine("Average: " + average);
