@@ -152,20 +152,301 @@
 //    Console.WriteLine(country);
 //}
 
-int[] nums = { 20, 34, 21, 98, 45, 12, 34, 65, 11, 34, 54, 30 };
+//int[] nums = { 20, 34, 21, 98, 45, 12, 34, 65, 11, 34, 54, 30 };
 
 //for (int i = 0; i < nums.Length; i++)
 //{
-//    if (nums[i] %3 == 0)
+//    if (nums[i] % 3 == 0)
 //    {
 //        Console.WriteLine(nums[i]);
 //    }
 //}
 
-int max = nums.Max();
-int min = nums.Min();
-double average = nums.Average();
+//int max = nums.Max();
+//int min = nums.Min();
+//double average = nums.Average();
 
-Console.WriteLine("Max: " + max);
-Console.WriteLine("Min: " + min);
-Console.WriteLine("Average: " + average);
+//Console.WriteLine("Max: " + max);
+//Console.WriteLine("Min: " + min);
+//Console.WriteLine("Average: " + average);
+
+
+
+//int odd = 0;
+//int even = 0;
+
+//for (int i = 1; i <= 500; i++)
+//{
+//    if (i%2 == 0)
+//    {
+//        odd += i;
+//    }
+//    else
+//    {
+//        even += i;
+//    }
+
+//}
+//if (odd-even > 0)
+//{
+//    Console.WriteLine("ferq musbetdir");
+//}
+//else
+//{
+//    Console.WriteLine("ferq menfidir");
+//}
+
+//int[] fib = new int[10];
+
+//fib[0] = 0;
+//fib[1] = 1;
+
+//for (int i = 2; i < fib.Length; i++)
+//{
+//    fib[i] = fib[i - 1] + fib[i - 2];
+//}
+
+//for (int i = 0; i < fib.Length; i++)
+//{
+//    Console.Write(fib[i] + " ");
+//}
+
+
+
+//Console.WriteLine("Enter number:");
+//int n = Convert.ToInt32(Console.ReadLine());
+
+//int[] arr = new int[n];
+//int result = 1;
+
+
+
+//for (int i = 1; i <= arr.Length; i++)
+//{
+//    result *= i;
+//}
+//Console.WriteLine(result);
+
+
+
+
+
+//Console.WriteLine("Enter number:");
+//int n = Convert.ToInt32(Console.ReadLine());
+//static bool Prime(int n)
+//{
+//    if (n <= 1)
+//        return false;
+
+//    for (int i = 2; i <= n / 2; i++)
+//    {
+//        if (n % i == 0)
+//        {
+//            return false;
+//        }
+//    }
+
+//    return true;
+//}
+
+//if (Prime(n))
+//{
+//    Console.WriteLine("This number is prime");
+//}
+//else
+//{
+//    Console.WriteLine("This number is not prime");
+//}
+
+
+
+//int[] arr = { 23, 60, 12, 43, 56, 100, 23, 43, 21, 36, 72 };
+
+//for (int i = 0; i < arr.Length; i++)
+//{
+//    if (arr[i] % 6 == 0)
+//    {
+//        Console.WriteLine(arr[i]);
+//    }
+//}
+
+
+//Console.WriteLine("Enter first number:");
+//double num1 = Convert.ToDouble(Console.ReadLine());
+
+
+//Console.WriteLine("Enter operator:");
+//string act = Console.ReadLine();
+
+//Console.WriteLine("Enter second number:");
+//double num2 = Convert.ToDouble(Console.ReadLine());
+
+//double result = 0;
+
+//if (num2 == 0)
+//{
+//    Console.WriteLine("Cannot be divided by 0");
+//}
+//else
+//{
+//  switch (act)
+//{
+//    case "+":
+//        result = num1 + num2;
+//        break;
+
+//    case "-":
+//        result = num1 - num2;
+//        break;
+
+//    case "*":
+//        result = num1 * num2;
+//        break;
+
+//    case "/":
+//        result = num1 / num2;
+//        break;
+
+//    case "%":
+//        result = num1 % num2;
+//        break;
+
+//    case "**":
+//        result = Math.Pow(num1, num2);
+//        break;
+
+//    default:
+//        Console.WriteLine("Invalid operator");
+//        return;
+//}
+//Console.WriteLine("Result: " + result);  
+//}
+
+
+
+
+
+
+
+//double[] prices = { 100.0, 1300.50, 259.99, 430.30, 160.99, 320.0 };
+
+//for (int i = 0; i < prices.Length; i++)
+//{
+//    double discountedPrice = prices[i] * 0.8; 
+//    Console.WriteLine("Original price: " + prices[i] + " -> Discounted price: " + discountedPrice);
+//}
+
+//int[] ages = { 23, 34, 19, 65, 40, 66, 29, 35, 67, 64, 60, 32, 57 };
+
+//for (int i = 0; i < ages.Length; i++)
+//{
+//    if (ages[i] >= 65)
+//    {
+//        Console.WriteLine(ages[i] + " yasinda olan isci teqaude ayrilmalidir.");
+//    }
+//}
+
+
+//Console.WriteLine("Uc terefi daxil edin:");
+
+//Console.Write("a: ");
+//double a = Convert.ToDouble(Console.ReadLine());
+
+//Console.Write("b: ");
+//double b = Convert.ToDouble(Console.ReadLine());
+
+//Console.Write("c: ");
+//double c = Convert.ToDouble(Console.ReadLine());
+
+//if (a == b && b == c)
+//{
+//    Console.WriteLine("Beraberterefli ucbucaq");
+//}
+
+//else if (a == b || a == c || b == c)
+//{
+//    Console.WriteLine("Beraberyanli ucbucaq");
+//}
+//else if (a * a + b * b == c * c ||
+//         a * a + c * c == b * b ||
+//         b * b + c * c == a * a)
+//{
+//    Console.WriteLine("Duzbucaqli ucbucaq");
+//}
+//else
+//{
+//    Console.WriteLine("Muxtelifterefli ucbucaq");
+//}
+
+
+
+
+//Random rnd = new Random();
+//int number = rnd.Next(1, 101);
+
+//int attempt = 5;
+//Console.WriteLine(number);
+//while (attempt > 0)
+//{
+//    Console.Write("Ededi daxil edin: ");
+//    int guess = Convert.ToInt32(Console.ReadLine());
+
+//    if (guess == number)
+//    {
+//        Console.WriteLine("You Won!");
+//        break;
+//    }
+//    else
+//    {
+//        attempt--;
+//        Console.WriteLine("Sehv tapdiniz. Qalan cehd: " + attempt);
+//    }
+
+//    if (attempt == 0)
+//    {
+//        Console.WriteLine("Game Over. Dogru eded: " + number);
+//    }
+//}
+
+
+//Console.Write("Kvadratın terefi: ");
+//double a = Convert.ToDouble(Console.ReadLine());
+
+//double saheKvad = Math.Pow(a, 2);
+//double perimetrKvad = 4 * a;
+
+
+//Console.Write("Duzbucaqlinin terefi: ");
+//double b = Convert.ToDouble(Console.ReadLine());
+//double c = Convert.ToDouble(Console.ReadLine());
+
+//double saheDuz = c*b;
+//double perimetrDuz = 2*(b+c);
+
+//Console.WriteLine(saheKvad + " " + perimetrKvad);
+//Console.WriteLine(saheDuz + " " + perimetrDuz);
+
+
+//Console.Write("Eded daxil et: ");
+//int n = int.Parse(Console.ReadLine());
+
+//if (Palindromdur(n))
+//    Console.WriteLine("Eded palindromdur");
+//else
+//    Console.WriteLine("Eded palindrom deyil");
+
+
+//static bool Palindromdur(int n)
+//{
+//    int original = n;
+//    int ters = 0;
+
+//    while (n > 0)
+//    {
+//        int reqem = n % 10;
+//        ters = ters * 10 + reqem;
+//        n /= 10;
+//    }
+
+//    return original == ters;
+//}
