@@ -427,8 +427,8 @@
 //Console.WriteLine(saheDuz + " " + perimetrDuz);
 
 
-//Console.Write("Eded daxil et: ");
-//int n = int.Parse(Console.ReadLine());
+//Console.WriteLine("Eded daxil et: ");
+//int n = Convert.ToInt32(Console.ReadLine());
 
 //if (Palindromdur(n))
 //    Console.WriteLine("Eded palindromdur");
@@ -450,3 +450,116 @@
 
 //    return original == ters;
 //}
+
+
+//Console.WriteLine("Meyveni daxil et: ");
+//string fruit = Console.ReadLine();
+
+//Console.WriteLine("Cekini daxil et: ");
+//double weight = Convert.ToDouble(Console.ReadLine());
+
+//double price = 0;
+
+//switch (fruit)
+//{
+//    case "alma" :
+//        price = 2 * weight;
+//        break;
+//    case "banan":
+//        price = 1.50 * weight;
+//        break;
+//    case "heyva":
+//        price = 1.70 * weight;
+//        break;
+//    case "armud":
+//        price = 3 * weight;
+//        break;
+//    default:
+//        Console.WriteLine("Meyveni duzgun daxil edin");
+//        break;
+
+//}
+//Console.WriteLine(price);
+
+
+//Console.WriteLine("reqemi daxil et:");
+//int num = Convert.ToInt32(Console.ReadLine());
+
+//if (num > 0)
+//{
+//    while (num % 2 == 0)
+//    {
+//        num /= 2;
+//    }
+
+//    if (num == 1)
+//    {
+//        Console.WriteLine("yes");
+//    }
+//    else
+//    {
+//        Console.WriteLine("no");
+//    }
+//}
+//else
+//{
+//    Console.WriteLine("eded menfidir");
+//}
+
+//Console.WriteLine("Enter your balance");
+//double balance = Convert.ToDouble(Console.ReadLine());
+
+//while (true)
+//{
+//    Console.WriteLine("\nChoose operation:");
+//    Console.WriteLine("1 - Show balance");
+//    Console.WriteLine("2 - Increase balance");
+//    Console.WriteLine("3 - Decrease balance");
+//    Console.WriteLine("4 - Exit");
+
+//    int option = Convert.ToInt32(Console.ReadLine());
+
+//    switch (option)
+//    {
+//        case 1:
+//            Console.WriteLine($"Your balance is: {balance}");
+//            break;
+
+//        case 2:
+//            Console.WriteLine("Enter amount to increase:");
+//            double increased = Convert.ToDouble(Console.ReadLine());
+//            if (increased > 2000)
+//            {
+//                Console.WriteLine("You can only enter amounts under 2000");
+//            }
+//            else
+//            {
+//                balance += increased;
+//                Console.WriteLine($"New balance: {balance}");
+//            }
+            
+//            break;
+
+//        case 3:
+//            Console.WriteLine("Enter amount to decrease:");
+//            double decreased = Convert.ToDouble(Console.ReadLine());
+
+//            if (decreased > balance)
+//                Console.WriteLine("Not enough balance!");
+//            else
+//            {
+//                balance -= decreased;
+//                Console.WriteLine($"New balance: {balance}");
+//            }
+//            break;
+
+//        case 4:
+//            Console.WriteLine("Exit...");
+//            return;
+
+//        default:
+//            Console.WriteLine("Invalid option");
+//            break;
+//    }
+//}
+
